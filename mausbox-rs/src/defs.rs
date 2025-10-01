@@ -41,13 +41,13 @@ pub struct RatBehaviour {
 }
 
 pub enum Condition {
-    food_reserved_major_than(u16),
-    others_food_reserved_major_than(u16),
-    trees_major_than(u16),
-    others_is_family,
-    others_age_major_than(u16),
-    others_number_sons_major_than(u16),
-    others_difference_minor_than(u16),
+    FoodReservedMajorThan(u16),
+    OthersFoodReservedMajorThan(u16),
+    TreesMajorThan(u16),
+    OthersIsFamily,
+    OthersAgeMajorThan(u16),
+    OthersNumberSonsMajorThan(u16),
+    OthersDifferenceMinorThan(u16),
 }
 
 pub struct Environment {
